@@ -1,0 +1,29 @@
+# Third-party tooling installed locally. Not ours to republish, and this repo
+# is public — these are other people's licensed work, kept out of the history
+# deliberately rather than by accident.
+.claude/skills/
+design-references/
+
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+build/
+.vercel/
+
+# Environment. Never commit a key.
+.env
+.env.*
+!.env.example
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
